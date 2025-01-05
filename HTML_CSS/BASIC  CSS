@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROFILE LINKS</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height:;
+            gap: 30px;
+        }
+
+        .profile {
+            text-align: center;
+        }
+        .profile img{
+          border:5px solid #555;
+        }
+        .profile img {
+            width: 150px;
+            height: 150px;
+            
+            object-fit: cover;
+        }
+
+        .profile a {
+            display: block;
+            margin-top: 10px;
+            text-decoration: none;
+            font-size: 16px;
+            color: #007BFF;
+        }
+
+        .profile a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+<h1 align="center">Profile Links</h1>
+    <div class="container">
+        <div class="profile">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSnpqWVhYXMuVhPstZuo50A7uQxRaO2PtS2w&s"            
+        </div>
+
+        <div class="profile">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtP8ZWvkKa-rYm2ngk3Nl83Cz1IR2vIjxr5Q&s"
+            
+        </div>
+                <div class="profile">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-je0svZ8lQF5jM5tYhAIsgKLDdG-_xB_nPw&s" alt="image-4 thumbnail">
+        </div>
+                <div class="profile">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxl0bx_h5O5RQeYwvg4sKWHPg_gQWjWzzqrQ&s" alt="image-4 thumbnail">
+        </div>
+        <div class="profile">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNIZW4y81jiFeSMxtPEDURq81Odnyrva_lTA&s" alt="image-5 thumbnail">
+        </div>
+        
+    </div>
+
+</body>
+</html>
