@@ -1,0 +1,53 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Object Methods</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>JavaScript Date Object Methods</h1>
+
+    <p id="output">Current Date & Time: </p>
+
+    <button onclick="showDate()">Show Date</button>
+    <button onclick="showTime()">Show Time</button>
+    <button onclick="getFullYear()">Get Full Year</button>
+    <button onclick="changeDate()">Change Date to 1st Jan 2025</button>
+
+    <script>
+        let now = new Date();
+
+        function updateOutput(newText) {
+            document.getElementById("output").innerText = "Result: " + newText;
+        }
+
+        function showDate() {
+            updateOutput(now.toLocaleDateString());
+        }
+
+        function showTime() {
+            updateOutput(now.toLocaleTimeString());
+        }
+
+        function getFullYear() {
+            updateOutput("Year: " + now.getFullYear());
+        }
+
+        function changeDate() {
+            now.setFullYear(2025, 0, 1); // January 1st, 2025
+            updateOutput("Changed Date: " + now.toDateString());
+        }
+    </script>
+
+</body>
+</html>
